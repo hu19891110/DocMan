@@ -1,0 +1,153 @@
+{% include 'public/header.html' %}
+<!-- Page-Title -->
+<div class="row">
+    <div class="col-sm-12">
+        <span class="nav_path">Docker容器</span>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card-box">
+            <div>
+                <h4>Docker 主机管理</h4>
+                <span>这里汇集了您安装了所有的docker容器的主机</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card-box">
+            <div class="table-options">
+                <div class="btn-g1">
+                    <button type="button" class="btn btn-primary waves-effect waves-light">添加主机</button>
+                    <button type="button" class="btn btn-secondary waves-effect">导入主机</button>
+                </div>
+                <div class="btn-g2">
+                    搜索
+                </div>
+                <div class="clear"></div>
+            </div>
+            <table class="table table-hover">
+                <thead class="thead-default">
+                <tr>
+                    <th style="width: 2%;"><input type="checkbox"></th>
+                    <th>主机名</th>
+                    <th>状态</th>
+                    <th>CPU</th>
+                    <th>内存</th>
+                    <th>硬盘</th>
+                    <th>分组</th>
+                    <th>容器</th>
+                    <th style="width: 14%;">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <span>Blog_Web</span><br>
+                        <span class="span1">10.120.19.10</span>
+                    </td>
+                    <td><span class="label label-success"> 正常 </span></td>
+                    <td>1.91%</td>
+                    <td>
+                        <span>6.68%</span><br>
+                        <span class="span1">空闲 2G</span>
+                    </td>
+                    <td>
+                        <span>30.58%</span><br>
+                        <span class="span1">空闲 16G</span>
+                    </td>
+                    <td>北京地区</td>
+                    <td>5</td>
+                    <td>
+                        <div class="btn-group dropdown">
+                            <a href="/docker/detail.html" class="btn btn-secondary waves-effect"><i
+                                    class="zmdi zmdi-eye"> </i> <span>查看详情</span>
+                            </a>
+                            <button href="#" class="btn btn-secondary dropdown-toggle waves-effect waves-light"
+                                    data-toggle="dropdown" aria-expanded="false"><i class="caret"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">修改</a>
+                                <a class="dropdown-item" href="#">删除</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <span>私有云1</span><br>
+                        <span class="span1">10.120.19.9</span>
+                    </td>
+                    <td><span class="label label-success"> 正常 </span></td>
+                    <td>1.30%</td>
+                    <td>
+                        <span>2.98%</span><br>
+                        <span class="span1">空闲 5G</span>
+                    </td>
+                    <td>
+                        <span>1.18%</span><br>
+                        <span class="span1">空闲 19G</span>
+                    </td>
+                    <td>北京地区</td>
+                    <td>2</td>
+                    <td>
+                        <div class="btn-group dropdown">
+                            <a href="/docker/detail.html" class="btn btn-secondary waves-effect"><i
+                                    class="zmdi zmdi-eye"> </i> <span>查看详情</span>
+                            </a>
+                            <button href="#" class="btn btn-secondary dropdown-toggle waves-effect waves-light"
+                                    data-toggle="dropdown" aria-expanded="false"><i class="caret"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">修改</a>
+                                <a class="dropdown-item" href="#">删除</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <span>阿里云机房</span><br>
+                        <span class="span1">120.16.12.102</span>
+                    </td>
+                    <td><span class="label label-danger"> 失败 </span></td>
+                    <td>3.91%</td>
+                    <td>
+                        <span>1.82%</span><br>
+                        <span class="span1">空闲 1G</span>
+                    </td>
+                    <td>
+                        <span>5.18%</span><br>
+                        <span class="span1">空闲 20G</span>
+                    </td>
+                    <td>北京地区</td>
+                    <td>1</td>
+                    <td>
+                        <div class="btn-group dropdown">
+                            <a href="/docker/detail.html" class="btn btn-secondary waves-effect"><i
+                                    class="zmdi zmdi-eye"> </i> <span>查看详情</span>
+                            </a>
+                            <button href="#" class="btn btn-secondary dropdown-toggle waves-effect waves-light"
+                                    data-toggle="dropdown" aria-expanded="false"><i class="caret"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">修改</a>
+                                <a class="dropdown-item" href="#">删除</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% include 'public/footer.html' %}

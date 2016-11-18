@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+    <meta name="author" content="Coderthemes">
+    <link rel="shortcut icon" href="/static/assets/images/favicon.ico">
+    <title>DocMan - Docker Manages</title>
+    <link rel="stylesheet" href="/static/assets/plugins/morris/morris.css">
+    <link href="/static/assets/plugins/switchery/switchery.min.css" rel="stylesheet"/>
+
+    <link href="/static/assets/css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="/static/style.css" rel="stylesheet" type="text/css"/>
+    <script src="/static/assets/js/modernizr.min.js"></script>
+</head>
+
+<body>
+<!-- Navigation Bar-->
+<header id="topnav">
+    <div class="topbar-main">
+        <div class="container">
+            <!-- LOGO -->
+            <div class="topbar-left">
+                <a href="index.html" class="logo">
+                    <i class="zmdi zmdi-group-work icon-c-logo"></i>
+                    <span>DocMan</span>
+                </a>
+            </div>
+            <!-- End Logo container-->
+            <div class="menu-extras">
+                <ul class="nav navbar-nav pull-right">
+                    <li class="nav-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </li>
+                    <li class="nav-item dropdown notification-list">
+                        <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown"
+                           href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <i class="zmdi zmdi-notifications-none noti-icon"></i>
+                            <span class="noti-icon-badge"></span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-arrow dropdown-lg"
+                             aria-labelledby="Preview">
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h5>
+                                    <small><span class="label label-danger pull-xs-right">7</span>Notification</small>
+                                </h5>
+                            </div>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-success"><i class="icon-bubble"></i></div>
+                                <p class="notify-details">Robert S. Taylor commented on Admin
+                                    <small class="text-muted">1min ago</small>
+                                </p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-info"><i class="icon-user"></i></div>
+                                <p class="notify-details">New user registered.
+                                    <small class="text-muted">1min ago</small>
+                                </p>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-danger"><i class="icon-like"></i></div>
+                                <p class="notify-details">Carlos Crouch liked <b>Admin</b>
+                                    <small class="text-muted">1min ago</small>
+                                </p>
+                            </a>
+                            <!-- All-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item notify-all">
+                                View All
+                            </a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown notification-list">
+                        <a class="nav-link dropdown-toggle arrow-none waves-effect waves-light nav-user"
+                           data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                            <img src="/static/assets/images/users/avatar-1.jpg" alt="user" class="img-circle">
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-arrow profile-dropdown "
+                             aria-labelledby="Preview">
+                            <!-- item-->
+                            <div class="dropdown-item noti-title">
+                                <h5 class="text-overflow">
+                                    <small>Welcome ! 三斤</small>
+                                </h5>
+                            </div>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="zmdi zmdi-account-circle"></i> <span>个人资料</span>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="zmdi zmdi-settings"></i> <span>全局设置</span>
+                            </a>
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <i class="zmdi zmdi-power"></i> <span>退出</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- end menu-extras -->
+            <div class="clearfix"></div>
+        </div>
+        <!-- end container -->
+    </div>
+    <!-- end topbar-main -->
+    <div class="navbar-custom">
+        <div class="container">
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu">
+                    <li>
+                        <a href="/home.html"><i class="zmdi zmdi-view-dashboard"></i> <span
+                                class="nav_span"> 控制台 </span> </a>
+                    </li>
+                    <li>
+                        <a href="/docker/index.html"><i class="zmdi zmdi-cloud"></i> <span
+                                class="nav_span"> Docker容器 </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/images/index.html"><i class="fa fa-cubes"></i> <span class="nav_span"> 镜像仓库 </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/monitor/index.html"><i class="zmdi zmdi-notifications"></i> <span
+                                class="nav_span"> 监控报警 </span> </a>
+                    </li>
+                    <li>
+                        <a href="/log/index.html"><i class="zmdi zmdi-file-text"></i> <span
+                                class="nav_span"> 操作日记 </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/feedback/index.html"><i class="zmdi zmdi-face"></i> <span
+                                class="nav_span"> 意见反馈 </span> </a>
+                    </li>
+                </ul>
+                <!-- End navigation menu  -->
+            </div>
+        </div>
+    </div>
+</header>
+<div class="wrapper">
+    <div class="container">

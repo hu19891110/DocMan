@@ -1,0 +1,124 @@
+{% include 'public/header.html' %}
+<!-- Page-Title -->
+<div class="row">
+    <div class="col-sm-12">
+        <span class="nav_path">Docker容器 > 应用列表</span>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card-box">
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="server_name">
+                        <span>Centos</span>
+                    </div>
+                    <div class="server_info">
+                        <p><span class="server_info_title">主机名:</span><span class="server_info_title_1">Blog_Web</span>
+                        </p>
+                        <p><span class="server_info_title">主机IP:</span><span
+                                class="server_info_title_1">10.120.19.10</span>
+                        </p>
+                        <p><span class="server_info_title">应用服务:</span><span class="server_info_title_1">5</span></p>
+
+                        <p><span class="server_info_title">状 态:</span><span class="server_info_title_1"><span
+                                class="label label-success"> 正常 </span></span></p>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="sx">
+
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <p>CPU: <progress class="progress progress-info" value="50" max="100">50%</progress></p>
+                    <p>内存: <progress class="progress progress-info" value="50" max="100">50%</progress></p>
+                    <p>硬盘: <progress class="progress progress-info" value="50" max="100">50%</progress></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card-box">
+            <div class="table-options">
+                <div class="btn-g1">
+                    <button type="button" class="btn btn-primary waves-effect waves-light">
+                                           <span class="btn-label"><i class="fa fa-arrow-left"></i>
+                                           </span>返回
+                    </button>
+                </div>
+                <div class="btn-g2">
+                    <button type="button" class="btn btn-primary waves-effect waves-light">创建应用</button>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <table class="table table-hover">
+                <thead class="thead-default">
+                <tr>
+                    <th style="width: 2%;"><input type="checkbox"></th>
+                    <th>应用名称</th>
+                    <th>最近更新</th>
+                    <th>运行环境</th>
+                    <th>状态</th>
+                    <th>所属镜像</th>
+                    <th style="width: 14%;">操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><a href="#">Blog_Web</a></td>
+                    <td>18分钟前</td>
+                    <td>云端测试环境</td>
+                    <td><span class="label label-success"> 正常 </span></td>
+                    <td>
+                        <a href="#">daocloud.io/daocloud/dao-2048</a><br>
+                        <span class="span1"><i class="ion-pricetags"></i> 2048 game</span>
+                    </td>
+                    <td>
+                        <div class="btn-group dropdown">
+                            <a href="/docker/detail.html" class="btn btn-secondary waves-effect"><i
+                                    class="zmdi zmdi-eye"> </i> <span>查看详情</span>
+                            </a>
+                            <button href="#" class="btn btn-secondary dropdown-toggle waves-effect waves-light"
+                                    data-toggle="dropdown" aria-expanded="false"><i class="caret"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">删除</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><a href="#">Blog_Web</a></td>
+                    <td>18分钟前</td>
+                    <td>云端测试环境</td>
+                    <td><span class="label label-success"> 正常 </span></td>
+                    <td>
+                        <a href="#">daocloud.io/daocloud/dao-2048</a><br>
+                        <span class="span1"><i class="ion-pricetags"></i> 2048 game</span>
+                    </td>
+                    <td>
+                        <div class="btn-group dropdown">
+                            <a href="/docker/detail.html" class="btn btn-secondary waves-effect"><i
+                                    class="zmdi zmdi-eye"> </i> <span>查看详情</span>
+                            </a>
+                            <button href="#" class="btn btn-secondary dropdown-toggle waves-effect waves-light"
+                                    data-toggle="dropdown" aria-expanded="false"><i class="caret"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">删除</a>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% include 'public/footer.html' %}

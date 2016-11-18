@@ -1,0 +1,83 @@
+.clear {
+    clear: both;
+}
+
+.nav_span {
+    vertical-align: middle;
+}
+
+.logo {
+    text-transform: none;
+}
+
+.table th, .table td {
+    padding: 0.75rem;
+    line-height: 1.5;
+    border-top: 1px solid #eceeef;
+    vertical-align: middle;
+}
+
+.span1 {
+    color: #999;
+    font-size: 12px;
+}
+
+.label {
+    line-height: 13px;
+}
+
+.table-options {
+    margin-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.btn-g1 {
+    width: 300px;
+    float: left;
+}
+
+.btn-g2 {
+    width: 100px;
+    float: right;
+}
+
+.nav_path {
+    font-size: 13px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #696969;
+}
+
+.server_name {
+    width: 237px;
+    height: 156px;
+    background: #ffffff;
+    text-align: center;
+    line-height: 150px;
+    font-size: 70px;
+    float: left;
+}
+
+.server_info {
+    margin-left: 20px;
+    float: left;
+    width: 190px;
+    line-height: 22px;
+    padding-top: 10px;
+}
+
+.server_info_title {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.server_info_title1 {
+    color: #444;
+}
+
+.sx {
+    height: 156px;
+    border-left: 1px solid #eee;
+    width: 1px;
+    margin: auto;
+}

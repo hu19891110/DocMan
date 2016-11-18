@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>ECharts</title>
+    <link rel="stylesheet" href="/static/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/animate.css">
+    <link href="http://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: #fff;
+        }
+    </style>
+</head>
+
+<body>
+<div class="div_login">
+    <div class="form-group">
+        <label for="exampleInputEmail1">IT Code</label>
+        <input type="email" class="form-control" id="loginName" placeholder="IT Code">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="loginPass" placeholder="Password">
+    </div>
+    <button type="button" class="btn btn-danger" id="btnLogin" style="width: 100%;">Login</button>
+</div>
+<footer>
+    <div class="footers">
+        <span>Copyright @ 2016 IT Security</span>
+    </div>
+</footer>
+<script src="/static/assets/js/jquery.min.js"></script>
+<script src="/static/assets/js/bootstrap.min.js"></script>
+<script src="http://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
+<script>
+    $("#btnLogin").click(function () {
+        var loginName = $("#loginName").val();
+        var loginPass = $("#loginPass").val();
+
+        if (loginName == "") {
+            swal("warning!", "IT Code 不能为空!", "warning");
+            return false;
+        }
+
+        if (loginPass == "") {
+            swal("warning!", "Password 不能为空", "warning");
+            return false;
+        }
+
+        $.ajax({
+            type: 'POST',
+            url: '/index.html',
+            dataType: 'text',
+            data: {
+                "loginName": loginName,
+                "loginPass": loginPass
+            },
+            success: function (data) {
+                if (data == "1") {
+                    swal("warning!", "你的 IT Code 或 Password 不正确 !", "warning");
+                } else if (data == "2") {
+                    location.reload(true);
+                } else if (data == "3") {
+                    swal("warning!", "你的账号不存在,请联系管理员!", "warning");
+                }
+            }
+        });
+    });
+</script>
+</body>
+
+</html>

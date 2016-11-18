@@ -1,0 +1,84 @@
+[2015-09-08 16:49:35 +0000] [3837] [INFO] Starting gunicorn 19.3.0
+[2015-09-08 16:49:35 +0000] [3837] [INFO] Listening at: http://0.0.0.0:1238 (3837)
+[2015-09-08 16:49:35 +0000] [3837] [INFO] Using worker: sync
+[2015-09-08 16:49:35 +0000] [3842] [INFO] Booting worker with pid: 3842
+[2015-09-08 16:49:35 +0000] [3845] [INFO] Booting worker with pid: 3845
+[2015-09-08 16:49:35 +0000] [3846] [INFO] Booting worker with pid: 3846
+[2015-09-08 16:49:35 +0000] [3850] [INFO] Booting worker with pid: 3850
+[2015-09-08 16:49:35 +0000] [3854] [INFO] Booting worker with pid: 3854
+[2015-09-08 16:49:35 +0000] [3860] [INFO] Booting worker with pid: 3860
+[2015-09-08 16:49:35 +0000] [3859] [INFO] Booting worker with pid: 3859
+[2015-09-08 16:49:35 +0000] [3862] [INFO] Booting worker with pid: 3862
+[2015-09-08 16:49:37 +0000] [3837] [INFO] Handling signal: winch
+[2015-09-08 16:49:39 +0000] [3874] [INFO] Booting worker with pid: 3874
+[2015-09-08 16:49:39 +0000] [3875] [INFO] Booting worker with pid: 3875
+[2015-09-08 16:49:39 +0000] [3876] [INFO] Booting worker with pid: 3876
+[2015-09-08 16:49:39 +0000] [3877] [INFO] Booting worker with pid: 3877
+[2015-09-08 16:49:39 +0000] [3878] [INFO] Booting worker with pid: 3878
+[2015-09-08 16:49:39 +0000] [3879] [INFO] Booting worker with pid: 3879
+[2015-09-08 16:49:39 +0000] [3837] [INFO] Handling signal: hup
+[2015-09-08 16:49:39 +0000] [3837] [INFO] Hang up: Master
+[2015-09-08 16:49:39 +0000] [3885] [INFO] Booting worker with pid: 3885
+[2015-09-08 16:49:39 +0000] [3886] [INFO] Booting worker with pid: 3886
+[2015-09-08 16:49:39 +0000] [3887] [INFO] Booting worker with pid: 3887
+[2015-09-08 16:49:39 +0000] [3889] [INFO] Booting worker with pid: 3889
+[2015-09-08 16:49:39 +0000] [3890] [INFO] Booting worker with pid: 3890
+[2015-09-08 16:49:39 +0000] [3891] [INFO] Booting worker with pid: 3891
+[2015-09-08 16:49:39 +0000] [3892] [INFO] Booting worker with pid: 3892
+[2015-09-08 16:49:39 +0000] [3893] [INFO] Booting worker with pid: 3893
+[2015-09-08 16:49:39 +0000] [3876] [INFO] Worker exiting (pid: 3876)
+[2015-09-08 16:49:39 +0000] [3874] [INFO] Worker exiting (pid: 3874)
+[2015-09-08 16:49:39 +0000] [3875] [INFO] Worker exiting (pid: 3875)
+[2015-09-08 16:49:39 +0000] [3877] [INFO] Worker exiting (pid: 3877)
+[2015-09-08 16:49:40 +0000] [3878] [INFO] Worker exiting (pid: 3878)
+[2015-09-08 16:49:40 +0000] [3879] [INFO] Worker exiting (pid: 3879)
+[2015-10-08 00:27:23 +0000] [3885] [INFO] Worker exiting (pid: 3885)
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+[2015-10-08 00:27:23 +0000] [3886] [INFO] Worker exiting (pid: 3886)
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+[2015-10-08 00:27:23 +0000] [3887] [INFO] Worker exiting (pid: 3887)
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+[2015-10-08 00:27:23 +0000] [3889] [INFO] Worker exiting (pid: 3889)
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+[2015-10-08 00:27:23 +0000] [3890] [INFO] Worker exiting (pid: 3890)
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+[2015-10-08 00:27:23 +0000] [3891] [INFO] Worker exiting (pid: 3891)
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+[2015-10-08 00:27:23 +0000] [3892] [INFO] Worker exiting (pid: 3892)
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+[2015-10-08 00:27:23 +0000] [3893] [INFO] Worker exiting (pid: 3893)
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+(2006, 'MySQL server has gone away')
+[2015-10-08 00:27:23 +0000] [3837] [INFO] Handling signal: term
+[2015-10-08 00:27:23 +0000] [3837] [INFO] Shutting down: Master
